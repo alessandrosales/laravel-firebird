@@ -42,6 +42,8 @@ Other keys that are needed:
     'username' => env('DB_USERNAME', 'sysdba'),
     'password' => env('DB_PASSWORD', 'masterkey'),
     'charset'  => env('DB_CHARSET', 'UTF8'),
+    'role'     => env('DB_ROLE', 'RLAPIINT'),
+    'dialect'  => env('DB_DIALECT', 3),
 ],
 ```
 
